@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class xaviersplayercontrollertester : MonoBehaviour
 {
     public float maxSpeed = 7;
     public float jumpTakeOffSpeed = 7;
+
+    public int gemsneeded = 3;
 
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
@@ -47,7 +50,15 @@ public class xaviersplayercontrollertester : MonoBehaviour
 
         }
 
-        
+        if (GameManager.greengem >= gemsneeded && GameManager.redgem >= gemsneeded && GameManager.bluegem >= gemsneeded)
+            loadnextlevel();
     }
-   
+
+    public void loadnextlevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+
+
 }
