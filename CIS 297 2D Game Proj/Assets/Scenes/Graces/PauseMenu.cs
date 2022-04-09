@@ -9,6 +9,13 @@ public class PauseMenu : MonoBehaviour
 
     public GameObject pauseMenuUI;
 
+
+    public void Awake()
+    {
+        pauseMenuUI.SetActive(GameIsPaused);
+
+    }// i added this so the game doesnt start paused 
+
     // Update is called once per frame
     void Update()
     {

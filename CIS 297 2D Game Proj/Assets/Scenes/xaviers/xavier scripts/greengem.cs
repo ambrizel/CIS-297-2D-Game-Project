@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class greengem : MonoBehaviour
 {
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.collider.name == "player")
+        if (collision.name == "Player")
         {
             GameManager.greengem++;
             Destroy(this.gameObject);
