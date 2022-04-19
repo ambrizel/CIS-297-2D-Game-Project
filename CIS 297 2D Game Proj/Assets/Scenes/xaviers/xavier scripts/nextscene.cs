@@ -7,6 +7,11 @@ public class nextscene : MonoBehaviour
 {
    public void loadnextlevel()
     {
+        SceneManager.LoadScene("Premise");
+    }
+
+    public void loadGame()
+    {
         SceneManager.LoadScene("Level1");
     }
 
