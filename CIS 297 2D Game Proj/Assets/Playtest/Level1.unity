@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1281465857421914445, guid: 609a9ba58412ecd4690c906d1e167b9a,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609a9ba58412ecd4690c906d1e167b9a, type: 3}
 --- !u!4 &104668618 stripped
@@ -207,6 +212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: greengem (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 700793689042548574, guid: 4caf3d29d9cefde45a5b0bc902ec1c2a,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 700793689042548575, guid: 4caf3d29d9cefde45a5b0bc902ec1c2a,
         type: 3}
@@ -4640,6 +4650,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1795105498836608714, guid: 9cb04129079d7714e9763a52d1f6efbc,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1795105498836608717, guid: 9cb04129079d7714e9763a52d1f6efbc,
         type: 3}
       propertyPath: m_RootOrder
@@ -4862,6 +4877,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1281465857421914445, guid: 609a9ba58412ecd4690c906d1e167b9a,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609a9ba58412ecd4690c906d1e167b9a, type: 3}
 --- !u!1001 &417546973
@@ -4871,6 +4891,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7865281348291933810, guid: b93a8d71ffaa7de4db86c703d0cd373e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7865281348291933811, guid: b93a8d71ffaa7de4db86c703d0cd373e,
         type: 3}
       propertyPath: m_RootOrder
@@ -5198,6 +5223,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: greengem
       objectReference: {fileID: 0}
+    - target: {fileID: 700793689042548574, guid: 4caf3d29d9cefde45a5b0bc902ec1c2a,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 700793689042548575, guid: 4caf3d29d9cefde45a5b0bc902ec1c2a,
         type: 3}
       propertyPath: m_RootOrder
@@ -5262,6 +5292,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7865281348291933810, guid: b93a8d71ffaa7de4db86c703d0cd373e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7865281348291933811, guid: b93a8d71ffaa7de4db86c703d0cd373e,
         type: 3}
       propertyPath: m_RootOrder
@@ -5396,6 +5431,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281465857421914445, guid: 609a9ba58412ecd4690c906d1e167b9a,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609a9ba58412ecd4690c906d1e167b9a, type: 3}
@@ -5620,7 +5660,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -6950,6 +6990,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7865281348291933810, guid: b93a8d71ffaa7de4db86c703d0cd373e,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7865281348291933811, guid: b93a8d71ffaa7de4db86c703d0cd373e,
         type: 3}
       propertyPath: m_RootOrder
@@ -7023,6 +7068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: greengem (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 700793689042548574, guid: 4caf3d29d9cefde45a5b0bc902ec1c2a,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 700793689042548575, guid: 4caf3d29d9cefde45a5b0bc902ec1c2a,
         type: 3}
