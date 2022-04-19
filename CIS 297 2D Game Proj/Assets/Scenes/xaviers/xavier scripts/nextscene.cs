@@ -23,6 +23,10 @@ public class nextscene : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene("Main Menu");
+        GameManager.bluegem = 0;
+        GameManager.redgem = 0;
+        GameManager.greengem = 0;
+
     }
 
     public void QuitGame()
