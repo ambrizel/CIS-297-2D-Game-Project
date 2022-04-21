@@ -12,7 +12,7 @@ public class nextscene : MonoBehaviour
 
     public void loadGame()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Elise Scene");
     }
 
     public void Controls()
